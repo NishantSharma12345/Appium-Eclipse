@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke" />
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="Utils.Listeners" />
+	</listeners>
+	<test thread-count="5" name="End to end Framework Test">
+		<classes>
+			<class name="Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Error Validations Test">
+		<classes>
+			<class name="Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase1" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="IOS Test">
+		<classes>
+			<class name="Automation.AppiumE2EFrameworkIOS.IOSBasics" />
+		</classes>
+	</test>
+</suite> 

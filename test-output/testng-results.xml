@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-24T23:13:41 IST" name="Default suite" finished-at="2022-08-24T23:14:15 IST" duration-ms="33510">
+    <groups>
+    </groups>
+    <test started-at="2022-08-24T23:13:41 IST" name="Default test" finished-at="2022-08-24T23:14:15 IST" duration-ms="33510">
+      <class name="Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid@397fbdb]" started-at="2022-08-24T23:13:41 IST" name="ConfigureAppium" finished-at="2022-08-24T23:13:55 IST" duration-ms="13843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid@397fbdb]" started-at="2022-08-24T23:13:55 IST" name="FillForm" data-provider="getData" finished-at="2022-08-24T23:14:14 IST" duration-ms="18883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid@397fbdb]" started-at="2022-08-24T23:14:14 IST" name="quit" finished-at="2022-08-24T23:14:15 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Automation.AppiumE2EFrameworkAndroid.eCommerceTestCase4_Hybrid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
